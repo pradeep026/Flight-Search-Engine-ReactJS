@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+
+.App{
+  width: 80%;
+  margin:2% 10%;
+  float: left;
+  border: 1px solid #a1a1a1;
+}
+
+.search--header{
+  text-align: left;
+  padding: 40px 0 10px 10px;
+  border-bottom: 1px solid #a1a1a1;
+}
+
+.search--header h1{
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+.search--form-container{
+  float:left;
+  width: 30%;
+  border-right:1px solid #a1a1a1;
+  height: 500px;
+}
+
+.search--form{
+  width: 100%;
+  clear: both;
+  padding: 10% 0;
+  border-bottom: 1px solid #a1a1a1;
+}
+
+.search--filter{
+  width: 100%;
+  clear: both;
+  padding: 10% 0;
+}
+
+.flight--result{
+  float:left;
+  width: 70%;
+  height: 500px;
+}
+
+.form--row{
+  padding: 5px;
+  text-align: left;
+}
+
+.form--row label{
+  width: 100%;
+  clear: both;
+  font: 14px arial;
+  display: block;
+}
+
+.form--row input{
+  margin: 5px 0;
+  padding: 10px;
+  clear: both;
+  font: 14px arial;
+  color: #000;
+  display: block;
+  width: 80%;
+  border: 1px solid #dcdcdc;
+  border-top: 0px;
+}
+
+.form--row input:focus{
+  border: 1px solid #047ed4;
+  border-top: 0px;
+  outline: none;
+}
+
+.form--row input[type=button]{
+  padding: 10px;
+  clear: both;
+  width: 80%;
+  font: 12px arial;
+  display: block;
+  border: 1px solid #dcdcdc;
+}
